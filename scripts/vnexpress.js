@@ -42,6 +42,7 @@ const reqUrl = {
       console.error(reason);
     }
   );
+  $done();
 })();
 
 /**
